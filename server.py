@@ -32,7 +32,7 @@ LOGGER_SIZE = 1024 * 1000  # size of individual log file (in Bytes)
 LOGGER_BACKUP_COUNT = 10  # no of log backups after the current log file is full
 
 # setup the logger
-logger = logging.getLogger('WaterLavelPortLogger')
+logger = logging.getLogger('EchoServerLogger')
 logger.setLevel(logging.INFO)
 logger.propagate = False
 hdlr = RotatingFileHandler(
